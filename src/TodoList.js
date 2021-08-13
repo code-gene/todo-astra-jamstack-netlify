@@ -34,6 +34,7 @@ export default class TodoList extends Component {
   }
 
   renderFooter(completedCount) {
+    
     const { todos } = this.props;
     const { filter } = this.state;
     const activeCount = todos.length - completedCount;
